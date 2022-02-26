@@ -5,7 +5,7 @@ function Product() {
   return (
     <div className="product">
       <div className="product__info">
-        <p>The Richest Man In Babylon</p>
+        <p>The Richest Man in Babylon</p>
         <p className="product__price">
           <small>Ksh.</small>
           <strong>2500</strong>
@@ -14,11 +14,13 @@ function Product() {
           <p>⭐</p>
         </div>
       </div>
+
       <img
-        src="https://th.bing.com/th/id/R.57f7b4e281138023aaccb3a4cb97d3be?rik=Uh7lbNjHn0LmRg&pid=ImgRaw&r=0"
+        src="https://th.bing.com/th/id/R.217d4ccf7f11b02093fd26ee8fe578e5?rik=Yi8YbwQp0E6hRQ&pid=ImgRaw&r=0"
         alt=""
       />
-      <button>Add to Basket</button>
+
+      <button>Add To Basket</button>
     </div>
   )
 }
