@@ -1,30 +1,15 @@
-/* eslint-disable react/jsx-no-undef */
 import React from 'react'
 import './App.css'
-import Header from './Header'
+// eslint-disable-next-line no-unused-vars
 import Home from './Home'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    //BEM
-    <Router>
-      <div className="App">
-        <switch>
-          <Route path="/checkout">
-            <Header />
-            <h1>I am a checkout page</h1>
-          </Route>
-        </switch>
-        <switch>
-          <Route path="/">
-            <Header />
-            <Home />
-          </Route>
-        </switch>
-      </div>
-    </Router>
+    <div className="app">
+      <Routes></Routes>
+    </div>
   )
 }
-
 export default App
